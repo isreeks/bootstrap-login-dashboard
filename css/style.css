@@ -1,0 +1,60 @@
+.profile-img{
+    height: 40px;
+    width: 40px;
+}
+
+.line-chart{
+    height: 80px;
+    width: 80px;
+}
+
+
+
+thead, tbody, tfoot, tr, td, th {
+    border-style: none;
+}
+
+main{
+    
+    min-width: 100%;
+}
+
+.main-card{
+    width: 22rem;
+}
+
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 1em;
+}
+
+.table-icons{
+    height: 60px;
+    width: 80px;
+    
+}
+
+@media screen and (max-width: 600px) {
+
+
+    .sidebar{
+        display: none;
+    }
+    
+  }
+
+  .wrapper{
+    width:100%;
+    display:block;
+    overflow:hidden;
+    margin:0 auto;
+    padding: 60px 50px;
+    background:#fff;
+    border-radius:4px;
+  }
+  
+  canvas{
+    background:#fff;
+    height:400px;
+  }
