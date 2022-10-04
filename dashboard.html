@@ -91,8 +91,8 @@
             </div>
         </div>
     </nav>
-    <main class="d-flex">
-        <div class="sidebar col-1 d-flex flex-column flex-shrink-0 bg-white " style="width: 4.5rem;">
+    <main class="d-flex ">
+        <div class="d-none d-lg-flex col-1  flex-column flex-shrink-0 bg-white " style="width: 4.5rem;">
             <ul class="nav flex-column text-center mb-5">
                 <li class="nav-item active">
                     <a href="#" class="nav-link py-3 px-0" aria-current="page" title="" data-bs-toggle="tooltip"
@@ -129,10 +129,10 @@
                 </li>
             </ul>
         </div>
-        <section class="p-5 col-11 ">
-            <div class="mb-5">
+        <section class="container-fluid p-lg-5 p-3 col-11">
+            <div class="mb-5 justify-content-sm-center">
                 <h2 class="text-primary fw-semibold">Dashboard</h2>
-                <div class="container-full d-flex row justify-content-between my-3 gap-3 ">
+                <div class="container-full d-flex row justify-content-lg-between justify-content-center  my-3 gap-3 ">
                     <div class="p-3 rounded  border-0 bg-primary text-white main-card ">
                         <div class="card-body">
                             <div class="d-flex justify-content-between">
@@ -180,7 +180,7 @@
                         <div class="card-body">
                             <div class="d-flex justify-content-between">
                                 <div class="bg- p-2 rounded col-3 mb-3 d-flex justify-content-center"
-                                style="background-color: #babcfb;color: #383CC1;">
+                                    style="background-color: #babcfb;color: #383CC1;">
                                     <i class="bi bi-people-fill  fs-2"></i>
                                 </div>
                                 <div>
@@ -201,7 +201,7 @@
                         <div class="card-body">
                             <div class="d-flex justify-content-between">
                                 <div class="bg-blue p-2 rounded col-3 mb-3 d-flex justify-content-center"
-                                style="background-color: #b2ffff;color: #03C6C7;">
+                                    style="background-color: #b2ffff;color: #03C6C7;">
                                     <i class="bi bi-eye-fill  fs-2"></i>
                                 </div>
                                 <div>
@@ -218,69 +218,58 @@
 
                         </div>
                     </div>
-
-
                 </div>
             </div>
-            <div class="d-lg-flex d-grid gap-3">
-                <div class="col-lg-8 container-fluid bg-white p-3 rounded-3">
-                    <table class="table">
+            <div class=" d-lg-flex justify-content-center justify-content-lg-between ">
+                <div class="col-lg-8 table-responsive pe-lg-3 pb-3 ">
+                    <table class="table align-middle bg-white p-4 rounded-3">
                         <thead>
-                            <tr class="">
-                                <th scope="col">No</th>
-                                <th scope="col"></th>
-                                <th scope="col">Product Name</th>
-                                <th scope="col">Status</th>
-                                <th scope="col">Sold</th>
-                                <th scope="col">View</th>
+                            <tr>
+                                <th>No</th>
+                                <th></th>
+                                <th>Product Name</th>
+                                <th>Status</th>
+                                <th> Sold</th>
+                                <th> View</th>
                             </tr>
                         </thead>
-                        <tbody class="">
-                            <tr class="table-light">
-                                <th scope="row">1</th>
+                        <tbody>
+                            <tr class="bg-light rounded">
+                                <td>1</td>
                                 <td><img class="table-icons" src="/assets/dashboard.png" alt=""></td>
-                                <td> News App</td>
-                                <td>Active</td>
+                                <td>News App</td>
+                                <td class="text-primary">Active</td>
                                 <td>10</td>
                                 <td>320</td>
                             </tr>
-                            <tr class="table-light">
-                                <th scope="row">2</th>
+                            <tr class="bg-light rounded">
+                                <td>1</td>
                                 <td><img class="table-icons" src="/assets/dashboard.png" alt=""></td>
-                                <td> News App</td>
-                                <td>Active</td>
+                                <td>News App</td>
+                                <td class="text-primary">Active</td>
                                 <td>10</td>
                                 <td>320</td>
                             </tr>
-                            <tr class="table-light">
-                                <th scope="row">3</th>
+                            <tr class="bg-light rounded">
+                                <td>1</td>
                                 <td><img class="table-icons" src="/assets/dashboard.png" alt=""></td>
-                                <td> News App</td>
-                                <td>Active</td>
+                                <td>News App</td>
+                                <td class="text-primary">Active</td>
                                 <td>10</td>
                                 <td>320</td>
                             </tr>
-                            <tr class="table-light">
-                                <th scope="row">4</th>
+                            <tr class="bg-light rounded">
+                                <td>1</td>
                                 <td><img class="table-icons" src="/assets/dashboard.png" alt=""></td>
-                                <td> News App</td>
-                                <td>Active</td>
+                                <td>News App</td>
+                                <td class="text-primary">Active</td>
                                 <td>10</td>
                                 <td>320</td>
                             </tr>
-                            <tr class="table-light">
-                                <th scope="row">5</th>
-                                <td><img class="table-icons" src="/assets/dashboard.png" alt=""></td>
-                                <td> News App</td>
-                                <td>Active</td>
-                                <td>10</td>
-                                <td>320</td>
-                            </tr>
-
                         </tbody>
                     </table>
                 </div>
-                <div class="col-lg-4 container-fluid bg-white p-3 rounded-3">
+                <div class="col-lg-4 container-fluid bg-white h-100 p-3 rounded-3">
                     <div class="d-flex justify-content-between align-items-center">
                         <h3 class="fs-4">View & Sells</h3>
                         <select class="border-0 form-control w-25">

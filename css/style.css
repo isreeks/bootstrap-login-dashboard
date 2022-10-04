@@ -8,21 +8,17 @@
     width: 80px;
 }
 
-
-
 thead, tbody, tfoot, tr, td, th {
     border-style: none;
 }
 
 main{
-    
-    min-width: 100%;
+    width: 100%;
 }
 
 .main-card{
     width: 22rem;
 }
-
 
 table {
     border-collapse: separate;
@@ -35,21 +31,13 @@ table {
     
 }
 
-@media screen and (max-width: 600px) {
-
-
-    .sidebar{
-        display: none;
-    }
-    
-  }
 
   .wrapper{
     width:100%;
     display:block;
     overflow:hidden;
     margin:0 auto;
-    padding: 60px 50px;
+    padding: 20px 20px;
     background:#fff;
     border-radius:4px;
   }
