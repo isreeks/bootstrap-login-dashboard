@@ -36,7 +36,7 @@
             </button>
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <div class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-between w-100">
-                    <form class="d-flex col-lg-3 col-10 mt-3 mt-lg-0 ms-3" role="search">
+                    <form class="d-flex col-lg-3 col-10 mt-3 mt-lg-0 px-2" role="search">
                         <input type="text" placeholder="Search for transaction etc.."
                             class="form-control border-0 bg-light rounded-0 col-3" />
                         <button class="btn rounded-0 btn-primary" type="submit">Search</button>
@@ -221,62 +221,66 @@
                 </div>
             </div>
             <div class=" d-lg-flex justify-content-center justify-content-lg-between ">
-                <div class="col-lg-8 table-responsive pe-lg-3 pb-3 ">
-                    <table class="table align-middle bg-white p-4 rounded-3">
-                        <thead>
-                            <tr>
-                                <th>No</th>
-                                <th></th>
-                                <th>Product Name</th>
-                                <th>Status</th>
-                                <th> Sold</th>
-                                <th> View</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr class="bg-light rounded">
-                                <td>1</td>
-                                <td><img class="table-icons" src="/assets/dashboard.png" alt=""></td>
-                                <td>News App</td>
-                                <td class="text-primary">Active</td>
-                                <td>10</td>
-                                <td>320</td>
-                            </tr>
-                            <tr class="bg-light rounded">
-                                <td>1</td>
-                                <td><img class="table-icons" src="/assets/dashboard.png" alt=""></td>
-                                <td>News App</td>
-                                <td class="text-primary">Active</td>
-                                <td>10</td>
-                                <td>320</td>
-                            </tr>
-                            <tr class="bg-light rounded">
-                                <td>1</td>
-                                <td><img class="table-icons" src="/assets/dashboard.png" alt=""></td>
-                                <td>News App</td>
-                                <td class="text-primary">Active</td>
-                                <td>10</td>
-                                <td>320</td>
-                            </tr>
-                            <tr class="bg-light rounded">
-                                <td>1</td>
-                                <td><img class="table-icons" src="/assets/dashboard.png" alt=""></td>
-                                <td>News App</td>
-                                <td class="text-primary">Active</td>
-                                <td>10</td>
-                                <td>320</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="col-lg-8 bg-white rounded-3 me-lg-3 mb-3">
+
+                    <div class="table-responsive">
+                        <table class="table align-middle  p-4 rounded-3">
+                            <thead>
+                                <tr class="text-primary">
+                                    <th>No</th>
+                                    <th></th>
+                                    <th>Product Name</th>
+                                    <th>Status</th>
+                                    <th> Sold</th>
+                                    <th> View</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="bg-light rounded">
+                                    <td>1</td>
+                                    <td><img class="table-icons" src="/assets/dashboard.png" alt=""></td>
+                                    <td>News App</td>
+                                    <td class="text-primary">Active</td>
+                                    <td>10</td>
+                                    <td>320</td>
+                                </tr>
+                                <tr class="bg-light rounded">
+                                    <td>1</td>
+                                    <td><img class="table-icons" src="/assets/dashboard.png" alt=""></td>
+                                    <td>News App</td>
+                                    <td class="text-primary">Active</td>
+                                    <td>10</td>
+                                    <td>320</td>
+                                </tr>
+                                <tr class="bg-light rounded">
+                                    <td>1</td>
+                                    <td><img class="table-icons" src="/assets/dashboard.png" alt=""></td>
+                                    <td>News App</td>
+                                    <td class="text-primary">Active</td>
+                                    <td>10</td>
+                                    <td>320</td>
+                                </tr>
+                                <tr class="bg-light rounded">
+                                    <td>1</td>
+                                    <td><img class="table-icons" src="/assets/dashboard.png" alt=""></td>
+                                    <td>News App</td>
+                                    <td class="text-primary">Active</td>
+                                    <td>10</td>
+                                    <td>320</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
                 </div>
                 <div class="col-lg-4 container-fluid bg-white h-100 p-3 rounded-3">
                     <div class="d-flex justify-content-between align-items-center">
-                        <h3 class="fs-4">View & Sells</h3>
+                        <h3 class="fs-5 fw-semibold text-primary">View & Sells</h3>
                         <select class="border-0 form-control w-25">
-                            <option selected>This Week</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
+                            <option selected>Today</option>
+                            <option value="1">Week</option>
+                            <option value="2">Month</option>
+                            <option value="3">Year</option>
                         </select>
                     </div>
 
